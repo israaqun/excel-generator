@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel Generator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.css">
+</head>
+<body>
+    <label for="num-columns">Number of Columns:</label>
+    <input type="number" id="num-columns" min="1" value="0"><br><br>
+
+    <label for="num-rows">Number  of  Rows:</label>
+    <input type="number" id="num-rows" min="1" value="0"><br><br>
+
+    <button id="generate-button" disabled>Generate Grid</button>
+    <button id="export-button" disabled>Export Excel</button>
+
+    <div id="grid-container"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.js"></script>
+    
+    <script type="text/javascript" src="https://unpkg.com/xlsx@0.15.1/dist/xlsx.full.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
