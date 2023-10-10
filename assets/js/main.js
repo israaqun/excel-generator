@@ -66,7 +66,7 @@ function generateGrid() {
 
 function exportToExcel() {
     if (!gridGenerated) {
-        alert('Please generate the grid first.');
+        alert('Please generate grid first.');
         return;
     }
 
